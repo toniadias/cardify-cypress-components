@@ -68,7 +68,7 @@ describe('<AddCard />', () => {
 
     cy.get('.notice-success')
       .should('be.visible')
-      .and('have.text', 'Cartão cadastrado com sucesso!');
+      .and('have.text', 'Cartão cadastrado!');
   });
 
   it('valida nome do titular com menos de 2 caracteres', () => {
