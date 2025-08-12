@@ -9,6 +9,6 @@ export default defineConfig({
       framework: 'react',
       bundler: 'vite',
     },
-    video: true, // força vídeo também para CT
+    video: true,
   },
 });
