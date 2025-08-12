@@ -1,10 +1,13 @@
-import { defineConfig } from "cypress";
+import { defineConfig } from 'cypress';
 
 export default defineConfig({
+  video: true,
+  videosFolder: 'cypress/videos',
+  screenshotOnRunFailure: true,
   component: {
     devServer: {
-      framework: "react",
-      bundler: "vite",
+      framework: 'react',
+      bundler: 'vite',
     },
   },
 });
